@@ -9,39 +9,41 @@
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/style.css" />
-	<title>Responsive Navbar</title>
+	<title>About</title>
 </head>
 
 <body>
 	<header>
 		<div class="navbar">
-		<!-- <a href="index.html"><img src="/images/logo_tau-e1693385225131.png" class="imageLogo"></a> -->
-
-			<div class="logo"><a href="#">TAUGAS</a></div>
+			<div class="logo"><a href="home.html">ТАУГАЗ</a></div>
 			<ul class="links">
-				<li><a href="about">О нас</a></li>
-				<li><a href="news">Новости</a></li>
-				<li><a href="products">Продукция</a></li>
-				<li><a href="service">Сервис</a></li>
-				<li><a href="support">Поддержка</a></li>
-				<li><a href="managment">Менеджмент</a></li>
+				<li class="active"><a href="about.html">О нас</a></li>
+				<li><a href="news.html">Новости</a></li>
+				<li><a href="products.html">Продукция</a></li>
+				<li><a href="service.html">Сервис</a></li>
+				<li><a href="support.html">Поддержка</a></li>
+				<li><a href="managment.html">Менеджмент</a></li>
 			</ul>
-			<a href="#" class="action-btn">Контакты</a>
+			<a href="contacts.html" class="action-btn">Контакты</a>
 			<div class="toggle_btn">
 				<i class="fa-solid fa-bars"></i>
 			</div>
 		</div>
 
 		<div class="dropdown_menu">
-			<li><a href="about">О нас</a></li>
-			<li><a href="news">Новости</a></li>
-			<li><a href="products">Продукция</a></li>
-			<li><a href="service">Сервис</a></li>
-			<li><a href="support">Поддержка</a></li>
-			<li><a href="managment">Менеджмент</a></li>
-			<li><a href="#" class="action-btn">Контакты</a></li>
+			<li class="active"><a href="about.html">О нас</a></li>
+			<li><a href="news.html">Новости</a></li>
+			<li><a href="products.html">Продукция</a></li>
+			<li><a href="service.html">Сервис</a></li>
+			<li><a href="support.html">Поддержка</a></li>
+			<li><a href="managment.html">Менеджмент</a></li>
+			<li><a href="contacts.html" class="action-btn">Контакты</a></li>
 		</div>
 	</header>
+
+	<footer>
+
+	</footer>
 
 	<script>
 		const toggleBtn = document.querySelector('.toggle_btn')
@@ -57,6 +59,7 @@
 				: 'fa-solid fa-bars'
 		}
 	</script>
+	<a class="gotopbtn" href="#"><ion-icon name="caret-up"></ion-icon></a>
 </body>
 
 </html>

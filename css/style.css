@@ -177,10 +177,10 @@ footer p {
 
 /* Info */
 .footer_content .info {
-	margin-bottom: auto;
-	margin-top: auto;
-	margin-left: auto;
-	margin-right: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
 }
 
 .footer_content .info img {

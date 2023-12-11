@@ -68,9 +68,18 @@ header {
 	justify-content: space-between;
 }
 
-.navbar .logo a {
+/* .navbar .logo a {
 	font-size: 1.5rem;
 	font-weight: bold;
+} */
+
+.navbar .logo img{
+	height: 40px;
+}
+
+.filter-navy {
+	display: flex;
+	filter: invert(4%) sepia(84%) saturate(3798%) hue-rotate(236deg) brightness(132%) contrast(102%);
 }
 
 .navbar .links {
@@ -101,7 +110,7 @@ header {
 	border: 2px solid #0C134F;
 	outline: none;
 	border-radius: 20px;
-	font-size: 0.8rem;
+	font-size: 1rem;
 	font-weight: bold;
 	cursor: pointer;
 	transition: scale 0.5 ease;
@@ -177,14 +186,24 @@ footer p {
 
 /* Info */
 .footer_content .info {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
 
 }
 
 .footer_content .info img {
+	padding-bottom: .5rem;
 	height: 100px;
+}
+
+.footer_content p {
+	font-size: 14px;
+}
+
+.filter-white {
+	filter: invert(100%) sepia(0%) saturate(4748%) hue-rotate(5deg) brightness(125%) contrast(109%);
 }
 
 /* Support */
